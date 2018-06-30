@@ -6,9 +6,19 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={hero} alt="logo" />
-        </header>
+        <section class="hero">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title">
+                THis is a title
+              </h1>
+              <h2 class="subtitle">
+                This is a subtitle
+                <img src={hero} alt="logo" />
+              </h2>
+            </div>
+          </div>
+        </section>
       </div>
     );
   }
